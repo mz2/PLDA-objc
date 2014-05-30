@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F12EDD719388BFC005EC02B /* BagOfWords.cc in Sources */ = {isa = PBXBuildFile; fileRef = 5F12EDD519388BFC005EC02B /* BagOfWords.cc */; };
 		5FADB8901913C6E200FDC63D /* BPBBagOfWords.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADB88D1913C6E200FDC63D /* BPBBagOfWords.m */; };
 		5FADB8911913C6E200FDC63D /* BPBLDAModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5FADB88F1913C6E200FDC63D /* BPBLDAModel.mm */; };
 		5FADB8C01913D33900FDC63D /* porter.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FADB8BD1913D33900FDC63D /* porter.c */; };
@@ -53,6 +54,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5F12EDD519388BFC005EC02B /* BagOfWords.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BagOfWords.cc; path = PLDApp/BagOfWords.cc; sourceTree = "<group>"; };
+		5F12EDD619388BFC005EC02B /* BagOfWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BagOfWords.h; path = PLDApp/BagOfWords.h; sourceTree = "<group>"; };
 		5FADB88C1913C6E200FDC63D /* BPBBagOfWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPBBagOfWords.h; sourceTree = "<group>"; };
 		5FADB88D1913C6E200FDC63D /* BPBBagOfWords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPBBagOfWords.m; sourceTree = "<group>"; };
 		5FADB88E1913C6E200FDC63D /* BPBLDAModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPBLDAModel.h; sourceTree = "<group>"; };
@@ -113,6 +116,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F12EDD819389333005EC02B /* MeTA */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MeTA;
+			sourceTree = "<group>";
+		};
 		5FADB8BC1913D32D00FDC63D /* External */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +144,8 @@
 		5FADB8C31913D34D00FDC63D /* PLDApp */ = {
 			isa = PBXGroup;
 			children = (
+				5F12EDD519388BFC005EC02B /* BagOfWords.cc */,
+				5F12EDD619388BFC005EC02B /* BagOfWords.h */,
 				5FADB8C41913D36000FDC63D /* LDAModel.cc */,
 				5FADB8C51913D36000FDC63D /* LDAModel.h */,
 				5FADB8C61913D36000FDC63D /* PLDA.cc */,
@@ -144,6 +156,7 @@
 		E43E3E5718C86E690073780D = {
 			isa = PBXGroup;
 			children = (
+				5F12EDD819389333005EC02B /* MeTA */,
 				5FADB8C31913D34D00FDC63D /* PLDApp */,
 				5FADB8BC1913D32D00FDC63D /* External */,
 				E43E3EA218C86EBE0073780D /* plda-cc */,
@@ -317,6 +330,7 @@
 			files = (
 				E43E3E9B18C86EAA0073780D /* infer.cc in Sources */,
 				E43E3E9818C86EAA0073780D /* cmd_flags.cc in Sources */,
+				5F12EDD719388BFC005EC02B /* BagOfWords.cc in Sources */,
 				E43E3E9718C86EAA0073780D /* accumulative_model.cc in Sources */,
 				E43E3E9A18C86EAA0073780D /* document.cc in Sources */,
 				5FADB8C01913D33900FDC63D /* porter.c in Sources */,
