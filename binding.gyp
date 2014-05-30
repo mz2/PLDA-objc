@@ -184,7 +184,7 @@
         "External/PoDoFo-staticlib/podofo/podofo",
         "External/jansson/src", "./" ],
 
-      "dependencies" : [ "jansson", "podofo", "External/meta/meta.gyp:meta-analysis" ]
+      "dependencies" : [ "jansson", "podofo" ]
     }
   ]
 }

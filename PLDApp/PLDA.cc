@@ -10,7 +10,6 @@ using namespace v8;
 
 void InitAll(Handle<Object> exports) {
     lda::LDAModel::Init(exports);
-    lda::
 }
 
 NODE_MODULE(plda, InitAll);
