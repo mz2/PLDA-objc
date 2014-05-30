@@ -10,3 +10,6 @@
 [submodule "External/freetype"]
 	path = External/freetype
 	url = git@github.com:mekentosj/freetype-gyp
+[submodule "External/meta"]
+	path = External/meta
+	url = git@github.com:meta-toolkit/meta.git
